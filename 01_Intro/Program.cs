@@ -1,7 +1,7 @@
 ﻿internal class Program
 {
     // Task 1
-    private static void CountEarn(string position, int hoursWorked)
+    static void CountEarn(string position, int hoursWorked)
     {
         double hourlyRate;
 
@@ -25,7 +25,7 @@
         Console.WriteLine($"The employee's earnings are: {earnings}");
     }
     // Task 2
-    private static void CustomPrint()
+    static void CustomPrint()
     {
         Console.WriteLine("Enter number a: ");
         int a = int.Parse(Console.ReadLine());
@@ -45,7 +45,7 @@
     }
 
     // Task 3
-    private static void inputChar()
+    static void inputChar()
     {
         int countSpace = 0;
         int countNumbers = 0;
@@ -85,7 +85,7 @@
     }
 
     // Task 4
-    private static void inputChar_2()
+    static void inputChar_2()
     {
         while (true)
         {
