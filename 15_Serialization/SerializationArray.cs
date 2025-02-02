@@ -49,9 +49,10 @@ namespace _15_Serialization
         {
             while (true)
             {
+                Console.Clear();
                 Console.WriteLine("Menu: \n[1] Input \n[2] Print \n[3] Filter \n[4] Serialize \n[5] Serialize and save to file \n[6] DeSerialize from file \n[0] Exit");
                 char choice = (char)Console.Read()!;
-                if (choice == '\r' || choice == '\n') { }
+                if (choice == '\r' || choice == '\n') { Console.Clear(); }
                 else
                 {
                     switch (choice)
